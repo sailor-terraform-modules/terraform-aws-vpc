@@ -10,3 +10,7 @@ variable "region" {
   type        = string
   description = "AWS Region the vpc is launched in."
 }
+variable "bucket_arn" {
+  type        = string
+  description = " The ARN of the logging destination."
+}
